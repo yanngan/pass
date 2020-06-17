@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#20FFFFFF">
+
+    <TextView
+        android:id="@+id/textViewTitel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="titel"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewThePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:text="the password.........."
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitel" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCopy"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/copy_icon_gray" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEdit"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonCopy"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/edit_icon_gray" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRemove"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonEdit"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/delete_icon_gray" />
+
+</android.support.constraint.ConstraintLayout>
