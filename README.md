@@ -1,4 +1,4 @@
 # pass
-this is an android app
-this app will help user keep Their passwords.
-the passwords are stored encrypted on device memory
+this is an android app <br>
+this app will help user keep Their passwords.<br>
+the passwords are stored encrypted on device memory<br>
